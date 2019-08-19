@@ -30,3 +30,6 @@ output "security_group_id" {
   value = aws_security_group.lc_security_group.id
 }
 
+output "iam_profile_arn" {
+  value = aws_iam_instance_profile.instance_profile.arn
+}
